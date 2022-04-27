@@ -32,8 +32,7 @@ namespace UploadDownloadFromBlob
                     Console.WriteLine(ex);
                 }
             }
-        }
-        //SAAS Query token
+       
 
         public async void DownloadFilesAsync(
             IEnumerable<FileInfo> files,
